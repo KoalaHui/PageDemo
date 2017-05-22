@@ -1,0 +1,234 @@
+.clear-fex {
+    zoom: 1;
+}
+
+.clear-fex :after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header .header {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .header .logo-box {
+    float: left;
+    width: 160px;
+    height: 100%;
+}
+
+header .logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url("../images/nubia-logo.png") no-repeat;
+}
+
+header .header .nav-box {
+    float: right;
+    width: 600px;
+    height: 100%;
+}
+
+header .nav {
+    float: left;
+    width: 440px;
+    height: 100%;
+}
+
+header .nav li {
+    float: left;
+    width: 70px;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+header .nav li a {
+    color: #fff;
+}
+
+header .login li a {
+    font-size: 12px;
+    color: #8f948f;
+}
+
+header .nav-box li a:hover {
+    color: #f00;
+}
+
+header .login {
+    float: right;
+    width: 130px;
+    height: 100%;
+}
+
+header .login li {
+    float: right;
+    width: 35px;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+header .login li:nth-child(3) {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 17px;
+    margin-right: 10px;
+    background: url("../images/nubia-syb-all.png");
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    height: 760px;
+    text-align: center;
+    border-bottom: 4px solid red;
+}
+
+.banner > img {
+    display: block;
+    height: 760px;
+    width: 100%
+}
+
+.banner .tips-group {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 50%;
+    margin-left: -45px;
+    bottom: 30px;
+    text-align: center;
+}
+
+.banner .tips-group .tips-item {
+    float: left;
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-left: 18px;
+    border: 2px solid transparent;
+    transition: all 1s;
+}
+
+.banner .tips-group .tips-item:hover {
+    border: 2px solid red;
+    background: transparent;
+    transform: scale(1.2, 1.2);
+}
+
+.content {
+    width: 100%;
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.content>ul {
+    position: relative;
+    margin: 0 2%;
+    background-color: red;
+}
+
+.content ul li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 200px;
+    text-align: center;
+}
+.content ul li{
+    position: relative;
+    overflow: hidden;
+}
+.content ul li h2{
+   margin-top: 30px;
+}
+.content ul li p{
+    margin-top: 10px;
+    font-size:13px;
+}
+.content ul li img{
+    position: relative;
+    top: -69px;
+    width: 100%;
+    height: 200px;
+    transition: all 1s;
+}
+.content ul li img:hover{
+    transform: scale(1.2,1.2);
+}
+
+footer {
+    width: 100%;
+    height: 135px;
+    padding-top: 30px;
+}
+footer .contents{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+}
+footer .contents .content-top{
+    width: 100%;
+    height: 30px;
+}
+footer .contents .content-top ul{
+    float: left;
+    height: 100%;
+}
+footer .contents .content-top ul li{
+    float: left;
+    height: 100%;
+}
+footer .contents .content-top .company-group{
+    padding: 3px 0;
+}
+footer .contents .content-top .company-group li{
+    text-align: center;
+    height: 100%;
+    width: 50px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-right: 5px;
+}
+footer .contents .content-top .company-icon{
+    margin-left: 20px;
+}
+footer .contents .content-top .company-icon li{
+    margin-left: 5px;
+}
+footer .contents .content-top .company-icon li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:  url("../images/nubia-syb-all.png")no-repeat;
+    background-position: -246px 0;
+}
+
+footer .contents .content-top>span{
+    float: right;
+    height: 100%;
+    line-height: 30px;
+}
+footer .contents>p{
+    white-space:nowrap;
+    margin-top: 8px;
+    font-size: 12px;
+}
